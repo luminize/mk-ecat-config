@@ -2292,7 +2292,7 @@
 								</SubItem>
 								<SubItem>
 									<SubIdx>1</SubIdx>
-									<Name>States of functions not allocated among FunIN 1–16 (HEX)</Name>
+									<Name>States of functions not allocated among FunIN 1-16 (HEX)</Name>
 									<Type>UINT</Type>
 									<BitSize>16</BitSize>
 									<BitOffs>0</BitOffs>
@@ -2302,7 +2302,7 @@
 								</SubItem>
 								<SubItem>
 									<SubIdx>2</SubIdx>
-									<Name>States of functions not allocated among FunIN 17–32 (HEX)</Name>
+									<Name>States of functions not allocated among FunIN 17-32 (HEX)</Name>
 									<Type>UINT</Type>
 									<BitSize>16</BitSize>
 									<BitOffs>0</BitOffs>
@@ -2472,7 +2472,7 @@
 								</SubItem>
 								<SubItem>
 									<SubIdx>35</SubIdx>
-									<Name>States of functions not allocatedamong FunIN 33–48 (HEX)</Name>
+									<Name>States of functions not allocatedamong FunIN 33-48 (HEX)</Name>
 									<Type>UINT</Type>
 									<BitSize>16</BitSize>
 									<BitOffs>0</BitOffs>
@@ -2482,7 +2482,7 @@
 								</SubItem>
 								<SubItem>
 									<SubIdx>36</SubIdx>
-									<Name>States of functions not allocatedamong FunIN 49–64 (HEX)</Name>
+									<Name>States of functions not allocatedamong FunIN 49-64 (HEX)</Name>
 									<Type>UINT</Type>
 									<BitSize>16</BitSize>
 									<BitOffs>0</BitOffs>
@@ -3671,7 +3671,7 @@
 								<SubItem>
 									<SubIdx>11</SubIdx>
 									<Name>Electrical angle</Name>
-									<Type>DINT</Type>
+									<Type>UINT</Type>
 									<BitSize>16</BitSize>
 									<BitOffs>0</BitOffs>
 									<Flags>
@@ -3691,7 +3691,7 @@
 								<SubItem>
 									<SubIdx>13</SubIdx>
 									<Name>Average load rate</Name>
-									<Type>DINT</Type>
+									<Type>INT</Type>
 									<BitSize>16</BitSize>
 									<BitOffs>0</BitOffs>
 									<Flags>
@@ -6729,14 +6729,14 @@
 											<DefaultValue>36</DefaultValue>
 										</Info>
 									</SubItem><SubItem>
-										<Name>States of functions not allocated among FunIN 1–16 (HEX)</Name>
+										<Name>States of functions not allocated among FunIN 1-16 (HEX)</Name>
 										<Info>
 											<MinValue>0</MinValue>
 											<MaxValue>65535</MaxValue>
 											<DefaultValue>0</DefaultValue>
 										</Info>
 									</SubItem><SubItem>
-										<Name>States of functions not allocated among FunIN 17–32 (HEX)</Name>
+										<Name>States of functions not allocated among FunIN 17-32 (HEX)</Name>
 										<Info>
 											<MinValue>0</MinValue>
 											<MaxValue>65535</MaxValue>
@@ -6855,14 +6855,14 @@
 											<DefaultValue>0</DefaultValue>
 										</Info>
 									</SubItem><SubItem>
-										<Name>States of functions not allocatedamong FunIN 33–48 (HEX)</Name>
+										<Name>States of functions not allocatedamong FunIN 33-48 (HEX)</Name>
 										<Info>
 											<MinValue>0</MinValue>
 											<MaxValue>65535</MaxValue>
 											<DefaultValue>0</DefaultValue>
 										</Info>
 									</SubItem><SubItem>
-										<Name>States of functions not allocatedamong FunIN 49–64 (HEX)</Name>
+										<Name>States of functions not allocatedamong FunIN 49-64 (HEX)</Name>
 										<Info>
 											<MinValue>0</MinValue>
 											<MaxValue>33</MaxValue>

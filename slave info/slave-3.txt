@@ -1,0 +1,1646 @@
+Settings in drives for slave nr 3
+0x1000:00 - Device type
+0x00020192 131474
+
+0x1001:00 - Error Register
+0x00 0
+
+0x1008:00 - Device name
+IS620-ECAT
+
+0x1009:00 - Hardware version
+V1.0
+
+0x100a:00 - Software version
+V1.0
+
+Subindexes :
+0x1c00:00 - SubIndex 000
+0x04 4
+
+0x1c00:01 - SubIndex 001
+0x01 1
+
+0x1c00:02 - SubIndex 002
+0x02 2
+
+0x1c00:03 - SubIndex 003
+0x03 3
+
+0x1c00:04 - SubIndex 004
+0x04 4
+
+Subindexes :
+0x1018:00 - SubIndex 000
+0x04 4
+
+0x1018:01 - Vendor ID
+0x00100000 1048576
+
+0x1018:02 - Product Code
+0x000c0108 786696
+
+0x1018:03 - Revision Number
+0x00010001 65537
+
+Subindexes :
+0x1600:00 - SubIndex 000
+0x03 3
+
+0x1600:01 - 1st Output Object to be mapped
+0x60400010 1614807056
+
+0x1600:02 - 2nd Output Object to be mapped
+0x607a0020 1618608160
+
+0x1600:03 - 3rd Output Object to be mapped
+0x60b80010 1622671376
+
+0x1600:04 - 4th Output Object to be mapped
+
+0x1600:05 - 5th Output Object to be mapped
+
+0x1600:06 - 6th Output Object to be mapped
+
+0x1600:07 - 7th Output Object to be mapped
+
+0x1600:08 - 8th Output Object to be mapped
+
+0x1600:09 - 9th Output Object to be mapped
+
+0x1600:0a - 10th Output Object to be mapped
+
+Subindexes :
+0x1701:00 - SubIndex 000
+0x04 4
+
+0x1701:01 - 1st Output Object to be mapped
+0x60400010 1614807056
+
+0x1701:02 - 2nd Output Object to be mapped
+0x607a0020 1618608160
+
+0x1701:03 - 3rd Output Object to be mapped
+0x60b80010 1622671376
+
+0x1701:04 - 4th Output Object to be mapped
+0x60fe0120 1627259168
+
+0x1701:05 - 5th Output Object to be mapped
+
+0x1701:06 - 6th Output Object to be mapped
+
+0x1701:07 - 7th Output Object to be mapped
+
+0x1701:08 - 8th Output Object to be mapped
+
+0x1701:09 - 9th Output Object to be mapped
+
+0x1701:0a - 10th Output Object to be mapped
+
+Subindexes :
+0x1702:00 - SubIndex 000
+0x07 7
+
+0x1702:01 - 1st Output Object to be mapped
+0x60400010 1614807056
+
+0x1702:02 - 2nd Output Object to be mapped
+0x607a0020 1618608160
+
+0x1702:03 - 3rd Output Object to be mapped
+0x60ff0020 1627324448
+
+0x1702:04 - 4th Output Object to be mapped
+0x60710010 1618018320
+
+0x1702:05 - 5th Output Object to be mapped
+0x60600008 1616904200
+
+0x1702:06 - 6th Output Object to be mapped
+0x60b80010 1622671376
+
+0x1702:07 - 7th Output Object to be mapped
+0x607f0020 1618935840
+
+0x1702:08 - 8th Output Object to be mapped
+
+0x1702:09 - 9th Output Object to be mapped
+
+0x1702:0a - 10th Output Object to be mapped
+
+Subindexes :
+0x1703:00 - SubIndex 000
+0x07 7
+
+0x1703:01 - 1st Output Object to be mapped
+0x60400010 1614807056
+
+0x1703:02 - 2nd Output Object to be mapped
+0x607a0020 1618608160
+
+0x1703:03 - 3rd Output Object to be mapped
+0x60ff0020 1627324448
+
+0x1703:04 - 4th Output Object to be mapped
+0x60600008 1616904200
+
+0x1703:05 - 5th Output Object to be mapped
+0x60b80010 1622671376
+
+0x1703:06 - 6th Output Object to be mapped
+0x60e00010 1625292816
+
+0x1703:07 - 7th Output Object to be mapped
+0x60e10010 1625358352
+
+0x1703:08 - 8th Output Object to be mapped
+
+0x1703:09 - 9th Output Object to be mapped
+
+0x1703:0a - 10th Output Object to be mapped
+
+Subindexes :
+0x1704:00 - SubIndex 000
+0x09 9
+
+0x1704:01 - 1st Output Object to be mapped
+0x60400010 1614807056
+
+0x1704:02 - 2nd Output Object to be mapped
+0x607a0020 1618608160
+
+0x1704:03 - 3rd Output Object to be mapped
+0x60ff0020 1627324448
+
+0x1704:04 - 4th Output Object to be mapped
+0x60710010 1618018320
+
+0x1704:05 - 5th Output Object to be mapped
+0x60600008 1616904200
+
+0x1704:06 - 6th Output Object to be mapped
+0x60b80010 1622671376
+
+0x1704:07 - 7th Output Object to be mapped
+0x607f0020 1618935840
+
+0x1704:08 - 8th Output Object to be mapped
+0x60e00010 1625292816
+
+0x1704:09 - 9th Output Object to be mapped
+0x60e10010 1625358352
+
+0x1704:0a - 10th Output Object to be mapped
+
+Subindexes :
+0x1705:00 - SubIndex 000
+0x08 8
+
+0x1705:01 - 1st Output Object to be mapped
+0x60400010 1614807056
+
+0x1705:02 - 2nd Output Object to be mapped
+0x607a0020 1618608160
+
+0x1705:03 - 3rd Output Object to be mapped
+0x60ff0020 1627324448
+
+0x1705:04 - 4th Output Object to be mapped
+0x60600008 1616904200
+
+0x1705:05 - 5th Output Object to be mapped
+0x60b80010 1622671376
+
+0x1705:06 - 6th Output Object to be mapped
+0x60e00010 1625292816
+
+0x1705:07 - 7th Output Object to be mapped
+0x60e10010 1625358352
+
+0x1705:08 - 8th Output Object to be mapped
+0x60b20010 1622278160
+
+0x1705:09 - 9th Output Object to be mapped
+
+0x1705:0a - 10th Output Object to be mapped
+
+Subindexes :
+0x1A00:00 - SubIndex 000
+0x07 7
+
+0x1A00:01 - 1st Input Object to be mapped
+0x60410010 1614872592
+
+0x1A00:02 - 2nd Input Object to be mapped
+0x60640020 1617166368
+
+0x1A00:03 - 3rd Input Object to be mapped
+0x60b90010 1622736912
+
+0x1A00:04 - 4th Input Object to be mapped
+0x60ba0020 1622802464
+
+0x1A00:05 - 5th Input Object to be mapped
+0x60bc0020 1622933536
+
+0x1A00:06 - 6th Input Object to be mapped
+0x603f0010 1614741520
+
+0x1A00:07 - 7th Input Object to be mapped
+0x60fd0020 1627193376
+
+0x1A00:08 - 8th Input Object to be mapped
+
+0x1A00:09 - 9th Input Object to be mapped
+
+0x1A00:0a - 10th Input Object to be mapped
+
+Subindexes :
+0x1B01:00 - SubIndex 000
+0x09 9
+
+0x1B01:01 - 1st Input Object to be mapped
+0x603f0010 1614741520
+
+0x1B01:02 - 2nd Input Object to be mapped
+0x60410010 1614872592
+
+0x1B01:03 - 3rd Input Object to be mapped
+0x60640020 1617166368
+
+0x1B01:04 - 4th Input Object to be mapped
+0x60770010 1618411536
+
+0x1B01:05 - 5th Input Object to be mapped
+0x60f40020 1626603552
+
+0x1B01:06 - 6th Input Object to be mapped
+0x60b90010 1622736912
+
+0x1B01:07 - 7th Input Object to be mapped
+0x60ba0020 1622802464
+
+0x1B01:08 - 8th Input Object to be mapped
+0x60bc0020 1622933536
+
+0x1B01:09 - 9th Input Object to be mapped
+0x60fd0020 1627193376
+
+0x1B01:0a - 10th Input Object to be mapped
+
+Subindexes :
+0x1B02:00 - SubIndex 000
+0x09 9
+
+0x1B02:01 - 1st Input Object to be mapped
+0x603f0010 1614741520
+
+0x1B02:02 - 2nd Input Object to be mapped
+0x60410010 1614872592
+
+0x1B02:03 - 3rd Input Object to be mapped
+0x60640020 1617166368
+
+0x1B02:04 - 4th Input Object to be mapped
+0x60770010 1618411536
+
+0x1B02:05 - 5th Input Object to be mapped
+0x60610008 1616969736
+
+0x1B02:06 - 6th Input Object to be mapped
+0x60b90010 1622736912
+
+0x1B02:07 - 7th Input Object to be mapped
+0x60ba0020 1622802464
+
+0x1B02:08 - 8th Input Object to be mapped
+0x60bc0020 1622933536
+
+0x1B02:09 - 9th Input Object to be mapped
+0x60fd0020 1627193376
+
+0x1B02:0a - 10th Input Object to be mapped
+
+Subindexes :
+0x1B03:00 - SubIndex 000
+0x0a 10
+
+0x1B03:01 - 1st Input Object to be mapped
+0x603f0010 1614741520
+
+0x1B03:02 - 2nd Input Object to be mapped
+0x60410010 1614872592
+
+0x1B03:03 - 3rd Input Object to be mapped
+0x60640020 1617166368
+
+0x1B03:04 - 4th Input Object to be mapped
+0x60770010 1618411536
+
+0x1B03:05 - 5th Input Object to be mapped
+0x60f40020 1626603552
+
+0x1B03:06 - 6th Input Object to be mapped
+0x60610008 1616969736
+
+0x1B03:07 - 7th Input Object to be mapped
+0x60b90010 1622736912
+
+0x1B03:08 - 8th Input Object to be mapped
+0x60ba0020 1622802464
+
+0x1B03:09 - 9th Input Object to be mapped
+0x60bc0020 1622933536
+
+0x1B03:0a - 10th Input Object to be mapped
+0x60fd0020 1627193376
+
+Subindexes :
+0x1B04:00 - SubIndex 000
+0x0a 10
+
+0x1B04:01 - 1st Input Object to be mapped
+0x603f0010 1614741520
+
+0x1B04:02 - 2nd Input Object to be mapped
+0x60410010 1614872592
+
+0x1B04:03 - 3rd Input Object to be mapped
+0x60640020 1617166368
+
+0x1B04:04 - 4th Input Object to be mapped
+0x60770010 1618411536
+
+0x1B04:05 - 5th Input Object to be mapped
+0x60610008 1616969736
+
+0x1B04:06 - 6th Input Object to be mapped
+0x60f40020 1626603552
+
+0x1B04:07 - 7th Input Object to be mapped
+0x60b90010 1622736912
+
+0x1B04:08 - 8th Input Object to be mapped
+0x60ba0020 1622802464
+
+0x1B04:09 - 9th Input Object to be mapped
+0x60bc0020 1622933536
+
+0x1B04:0a - 10th Input Object to be mapped
+0x606c0020 1617690656
+
+Subindexes :
+0x1c32:00 - SubIndex 000
+0x20 32
+
+0x1c32:01 - Sync mode
+0x0002 2
+
+0x1c32:02 - Cycle time
+0x00000000 0
+
+0x1c32:04 - Sync modes supported
+0x0004 4
+
+0x1c32:05 - Minimum cycle time
+0x0001e848 125000
+
+0x1c32:06 - Calc and copy time
+0x00000000 0
+
+0x1c32:09 - Delay time
+0x00000000 0
+
+0x1c32:20 - Sync error
+0x00 0
+
+Subindexes :
+0x1c33:00 - SubIndex 000
+0x20 32
+
+0x1c33:01 - Sync mode
+0x0002 2
+
+0x1c33:02 - Cycle time
+0x00000000 0
+
+0x1c33:04 - Sync modes supported
+0x0004 4
+
+0x1c33:05 - Minimum cycle time
+0x0001e848 125000
+
+0x1c33:06 - Calc and copy time
+0x00000000 0
+
+0x1c33:09 - Delay time
+0x00000000 0
+
+0x1c33:20 - Sync error
+0x00 0
+
+Subindexes :
+0x1c12:00 - SubIndex 000
+0x01 1
+
+0x1c12:01 - SubIndex 001
+0x1701 5889
+
+Subindexes :
+0x1c13:00 - SubIndex 000
+0x01 1
+
+0x1c13:01 - SubIndex 001
+0x1b01 6913
+
+Subindexes :
+0x2000:00 - SubIndex 000
+0x09 9
+
+0x2000:01 - Motor SN
+0x3715 14101
+
+0x2000:03 - Customized motor SN
+0x00000000 0
+
+0x2000:05 - Encpder Version
+0x5a54 23124
+
+0x2000:06 - Bus motor SN
+0x2b5d 11101
+
+Subindexes :
+0x2001:00 - SubIndex 000
+0x03 3
+
+0x2001:01 - DSP Software Version
+0x0406 1030
+
+0x2001:02 - Fpga Software Version
+0x0488 1160
+
+0x2001:03 - Servo drive SN
+0x0002 2
+
+Subindexes :
+0x2002:00 - SubIndex 000
+0x2a 42
+
+0x2002:01 - Control mode
+0x0009 9
+
+0x2002:03 - Rotating direction
+0x0000 0
+
+0x2002:04 - Direction of output pulse
+0x0000 0
+
+0x2002:05 - Reverse
+0x0028 40
+
+0x2002:06 - Stop mode at servo drive disabled
+0x0000 0
+
+0x2002:07 - Stop mode at fault 2
+0x0000 0
+
+0x2002:08 - Stop mode at overtravel
+0x0001 1
+
+0x2002:09 - Stop mode at fault 1
+0x0000 0
+
+0x2002:0a - Brake release command delay at servo drive enabled
+0x00fa 250
+
+0x2002:0b - Servo drive disable delay at brake apply command
+0x0096 150
+
+0x2002:0c - Output speed limit of brake reference
+0x001e 30
+
+0x2002:0d - Waiting time from servo disable signal to brake apply command
+0x01f4 500
+
+0x2002:10 - Display of keypad warning
+0x0000 0
+
+0x2002:16 - Allowed minimum  braking resistance
+0x0032 50
+
+0x2002:17 - Power of built-in  braking resistor
+0x0028 40
+
+0x2002:18 - Resistance of built-in braking resistor
+0x0032 50
+
+0x2002:19 - Resistor heat dissipation coefficient
+0x001e 30
+
+0x2002:1a - braking resistor type
+0x0000 0
+
+0x2002:1b - Power of external dynamic resistor
+0x0028 40
+
+0x2002:1c - Resistance of external braking resistor
+0x0032 50
+
+0x2002:20 - Parameter initialization
+0x0000 0
+
+0x2002:21 - Default keypad display
+0x0032 50
+
+0x2002:22 - EtherCAT software version
+0x0bb8 3000
+
+0x2002:24 - Display frequency of keypad
+0x0000 0
+
+Subindexes :
+0x2003:00 - SubIndex 000
+0x24 36
+
+0x2003:01 - States of functions not allocated among FunIN 1-16 (HEX)
+0x0000 0
+
+0x2003:02 - States of functions not allocated among FunIN 17-32 (HEX)
+0x0000 0
+
+0x2003:03 - DI1 Function Selection
+0x000e 14
+
+0x2003:04 - DI1 Logic Selection
+0x0000 0
+
+0x2003:05 - DI2 Function Selection
+0x000f 15
+
+0x2003:06 - DI2 Logic Selection
+0x0000 0
+
+0x2003:07 - DI3 Function Selection
+0x0000 0
+
+0x2003:08 - DI3 Logic Selection
+0x0000 0
+
+0x2003:09 - DI4 Function Selection
+0x0000 0
+
+0x2003:0a - DI4 Logic Selection
+0x0000 0
+
+0x2003:0b - DI5 Function Selection
+0x0000 0
+
+0x2003:0c - DI5 Logic Selection
+0x0000 0
+
+0x2003:0d - DI6 Function Selection
+0x0000 0
+
+0x2003:0e - DI6 Logic Selection
+0x0000 0
+
+0x2003:11 - DI8 Function Selection
+0x0026 38
+
+0x2003:12 - DI8 Logic Selection
+0x0001 1
+
+0x2003:13 - DI9 Function Selection
+0x001f 31
+
+0x2003:14 - DI9 Logic Selection
+0x0000 0
+
+0x2003:23 - States of functions not allocatedamong FunIN 33-48 (HEX)
+0x0000 0
+
+0x2003:24 - States of functions not allocatedamong FunIN 49-64 (HEX)
+0x0000 0
+
+Subindexes :
+0x2004:00 - SubIndex 000
+0x38 56
+
+0x2004:01 - DO1 Function Selection
+0x0009 9
+
+0x2004:02 - DO1 Logic Level Selection
+0x0000 0
+
+0x2004:03 - DO2 function selection
+0x0005 5
+
+0x2004:04 - DO2 Logic Level Selection
+0x0000 0
+
+0x2004:05 - DO3 Function Selection
+0x0003 3
+
+0x2004:06 - DO3 Logic Level Selection
+0x0000 0
+
+0x2004:17 - DO source
+0x0000 0
+
+0x2004:33 - AO1 Signal Selection
+0x0000 0
+
+0x2004:34 - AO1 offset Voltage
+0x1388 5000
+
+0x2004:35 - AO1 multiplying factor
+0x0064 100
+
+0x2004:36 - AO2 Signal Selection
+0x0000 0
+
+0x2004:37 - AO2 offset Voltage
+0x1388 5000
+
+0x2004:38 - AO2 multiplying factor
+0x0064 100
+
+Subindexes :
+0x2005:00 - SubIndex 000
+0x3e 62
+
+0x2005:05 - First-order lowpass filter time
+0x0000 0
+
+0x2005:11 - Clear action
+0x0000 0
+
+0x2005:12 - Encoder frequency division pulses
+0x09c4 2500
+
+0x2005:14 - Speed feedforward control selection
+0x0001 1
+
+0x2005:24 - Time of home searching
+0xc350 50000
+
+0x2005:27 - Servo pulse output source
+0x0000 0
+
+0x2005:2a - Output polarity of Z pulse
+0x0001 1
+
+Subindexes :
+0x2006:00 - SubIndex 000
+0x10 16
+
+0x2006:05 - Jog speed setting value
+0x0064 100
+
+0x2006:0c - Torque feedforward selection
+0x0001 1
+
+0x2006:10 - Speed limit for zero clamp
+0x000a 10
+
+Subindexes :
+0x2007:00 - SubIndex 000
+0x29 41
+
+0x2007:06 - Torque reference filter time
+0x004f 79
+
+0x2007:07 - Thes second torque reference filter time
+0x004f 79
+
+0x2007:08 - Torque limit source
+0x0002 2
+
+0x2007:0a - Internal forward torque limit
+0x0bb8 3000
+
+0x2007:0b - Internal reverse torque limit
+0x0bb8 3000
+
+0x2007:0c - External forward torque limit
+0x0bb8 3000
+
+0x2007:0d - External reverse torque limit
+0x0bb8 3000
+
+0x2007:10 - Emergency stop torque
+0x03e8 1000
+
+0x2007:12 - Speed limit source
+0x0001 1
+
+0x2007:14 - Forward speed limit/Speed limit 1 in torque control
+0x0bb8 3000
+
+0x2007:15 - Reverse speed limit/Speed limit 2 in torque control
+0x0bb8 3000
+
+0x2007:16 - Base value for torque reached
+0x0000 0
+
+0x2007:17 - Threshold of torque reached valid
+0x00c8 200
+
+0x2007:18 - Threshold of torque reached invalid
+0x0064 100
+
+0x2007:29 - Detection time of speed limit exceeded
+0x000a 10
+
+Subindexes :
+0x2008:00 - SubIndex 000
+0x1a 26
+
+0x2008:01 - Speed-loop Gain
+0x00fa 250
+
+0x2008:02 - Speed-loop integral time constant
+0x0c6f 3183
+
+0x2008:03 - Position-loop Gain
+0x0190 400
+
+0x2008:04 - The second speed loop gain
+0x0190 400
+
+0x2008:05 - The second speed loop integral time constant
+0x07d0 2000
+
+0x2008:06 - The second position loop gain
+0x0280 640
+
+0x2008:09 - Second gain mode setting
+0x0001 1
+
+0x2008:0a - Gain switchover condition
+0x0000 0
+
+0x2008:0b - Gain switchover delay
+0x0032 50
+
+0x2008:0c - Gain switchover level
+0x0032 50
+
+0x2008:0d - Gain switchover hysteresis
+0x001e 30
+
+0x2008:0e - Position gain switchover time
+0x001e 30
+
+0x2008:10 - Average value of load inertia ratio
+0x0064 100
+
+0x2008:13 - Speed feedforward filter time constant
+0x0032 50
+
+0x2008:14 - Speed feedforward gain
+0x0000 0
+
+0x2008:15 - Torque feedforward filter time constant
+0x0032 50
+
+0x2008:16 - Torque feedforward gain
+0x0000 0
+
+0x2008:17 - Speed feedback filter
+0x0000 0
+
+0x2008:18 - Cutoff frequency of speed feedback lowpass filter
+0x0fa0 4000
+
+0x2008:19 - Pseudo-differential forward feedback control  coefficient
+0x03e8 1000
+
+Subindexes :
+0x2009:00 - SubIndex 000
+0x28 40
+
+0x2009:01 - Auto-adjusting mode
+0x0000 0
+
+0x2009:02 - Rigidity level selection
+0x000c 12
+
+0x2009:03 - Working mode of self-adaptive notch
+0x0000 0
+
+0x2009:04 - Online inertia auto-tuning mode
+0x0000 0
+
+0x2009:05 - Low-frequency vibration mode selection
+0x0000 0
+
+0x2009:06 - Offline inertia auto-tuning mode
+0x0000 0
+
+0x2009:07 - Maximum speed for inertia autotuning
+0x01f4 500
+
+0x2009:08 - Acceleration/Deceleration time for inertia autotuning
+0x007d 125
+
+0x2009:09 - Interval after an inertia autotuning
+0x0320 800
+
+0x2009:0a - Motor revolutions for an inertia auto-tuning
+0x0068 104
+
+0x2009:0d - 1st notch frequency
+0x0fa0 4000
+
+0x2009:0e - 1st notch width level
+0x0002 2
+
+0x2009:0f - 1st notch attenuation level
+0x0000 0
+
+0x2009:10 - 2nd notch frequency
+0x0fa0 4000
+
+0x2009:11 - 2nd notch width level
+0x0002 2
+
+0x2009:12 - 2nd notch attenuation level
+0x0000 0
+
+0x2009:13 - 3rd notch frequency
+0x0fa0 4000
+
+0x2009:14 - 3rd  notch width level
+0x0002 2
+
+0x2009:15 - 3rd  notch attenuation level
+0x0000 0
+
+0x2009:16 - 4th notch frequency
+0x0fa0 4000
+
+0x2009:17 - 4th notch width level
+0x0002 2
+
+0x2009:18 - 4th notch attenuation level
+0x0000 0
+
+0x2009:19 - Obtained resonance frequency
+0x0000 0
+
+0x2009:1f - Disturbance torque compensation gain
+0x0000 0
+
+0x2009:20 - Disturbance observer filter time constant
+0x0032 50
+
+0x2009:27 - Low-frequency vibration frequency
+0x03e8 1000
+
+0x2009:28 - Filter of lowfrequency vibration frequency
+0x0002 2
+
+Subindexes :
+0x200A:00 - SubIndex 000
+0x25 37
+
+0x200A:01 - Power inputphase loss protection
+0x0000 0
+
+0x200A:02 - Absolute position limit set
+0x0000 0
+
+0x200A:04 - Retentive at power failure
+0x0000 0
+
+0x200A:05 - Motor overload protection gain
+0x0064 100
+
+0x200A:09 - Overspeed threshold
+0x0000 0
+
+0x200A:0a - Maximum position pulse frequency
+0x03e8 1000
+
+0x200A:0d - Runaway protection
+0x0001 1
+
+0x200A:11 - Position deviation threshold in low-frequency vibration
+0x0005 5
+
+0x200A:14 - DI8 filter time
+0x0050 80
+
+0x200A:15 - DI9 filter time
+0x0050 80
+
+0x200A:1a - Filter time of speed feedback display
+0x0032 50
+
+0x200A:1b - Motor overload shielding
+0x0000 0
+
+0x200A:1c - Speed DO Filter time constant
+0x000a 10
+
+0x200A:1d - Quadrature encoder filter time
+0x0005 5
+
+0x200A:21 - Overheat protection time duration for locked rotor   
+0x00c8 200
+
+0x200A:22 - Overheat protection for locked rotor
+0x0001 1
+
+Subindexes :
+0x200B:00 - SubIndex 000
+0x64 100
+
+0x200B:01 - Actual motor rotational speed
+0x0000 0
+
+0x200B:02 - Speed reference
+0x0000 0
+
+0x200B:03 - Internal torque reference
+0x0000 0
+
+0x200B:04 - Monitored DI states
+0x01bf 447
+
+0x200B:06 - Monitored DO states
+0x0003 3
+
+0x200B:08 - Absolute position counter
+0x000f7f63 1015651
+
+0x200B:0a - Mechanical angle
+0x1479 5241
+
+0x200B:0b - Electrical angle
+0x059f 1439
+
+0x200B:0c - Speed corresponding to input position reference
+0x0000 0
+
+0x200B:0d - Average load rate
+0x0000 0
+
+0x200B:0e - Input reference pulse counter
+0x00000000 0
+
+0x200B:10 - Encoder position deviation counter
+0x00000000 0
+
+0x200B:12 - Feedback pulse counter
+0x000f7f5f 1015647
+
+0x200B:14 - Total power-on time
+0x0015be55 1424981
+
+0x200B:19 - Phase current valid value
+0x0000 0
+
+0x200B:1b - Bus voltage
+0x0ca2 3234
+
+0x200B:1c - Module temperature
+0x001f 31
+
+0x200B:22 - Displayed fault record
+0x0000 0
+
+0x200B:23 - Fault code
+0x0000 0
+
+0x200B:24 - Time stamp upon displayed fault
+0x00000000 0
+
+0x200B:26 - Current rotational speed upon displayed fault
+0x0000 0
+
+0x200B:27 - Current U upon displayed fault
+0x0000 0
+
+0x200B:28 - Current V upon displayed fault
+0x0000 0
+
+0x200B:29 - Bus voltage upon displayed fault
+0x0000 0
+
+0x200B:2a - Input terminal state upon displayed fault
+0x0000 0
+
+0x200B:2b - Output terminal state upon displayed fault
+0x0000 0
+
+0x200B:36 - Reference position deviation
+0x00000000 0
+
+0x200B:38 - Actual motor rotational speed(0.1rpm)
+0x00000000 0
+
+0x200B:41 - Real Time Input reference pulse counter
+0x00000000 0
+
+Subindexes :
+0x200C:00 - SubIndex 000
+0x2e 46
+
+0x200C:01 - Servo shaft address
+0x0001 1
+
+0x200C:03 - Serial port baud rate
+0x0005 5
+
+0x200C:04 - Modbus data format
+0x0000 0
+
+0x200C:0a - Communication virtual DI
+0x0000 0
+
+0x200C:0b - Default virtual level of VDI at power-on
+0x0000 0
+
+0x200C:0c - Communication virtual DO
+0x0000 0
+
+0x200C:0d - Default virtual level of VDO allocated with function 0
+0x0000 0
+
+0x200C:0e - Update function code values written via communication to EEPROM
+0x0003 3
+
+0x200C:1a - CM_SendDelay
+0x0001 1
+
+0x200C:1b - Modbus 32-bit function code transmission sequence
+0x0001 1
+
+Subindexes :
+0x200D:00 - SubIndex 000
+0x17 23
+
+0x200D:01 - Software reset
+0x0000 0
+
+0x200D:02 - Fault reset
+0x0000 0
+
+0x200D:03 - Load inertia autotuning
+0x0000 0
+
+0x200D:06 - Emergency stop
+0x0000 0
+
+0x200D:0c - Jog function
+0x0000 0
+
+0x200D:12 - Forced input and output mode of  DI/DO
+0x0000 0
+
+0x200D:13 - Forced input setting of  DI
+0x01bf 447
+
+0x200D:14 - Forced output setting of  DO
+0x0000 0
+
+Subindexes :
+0x200F:00 - SubIndex 000
+0x1a 26
+
+0x200F:01 - Encoder feedback mode
+0x0000 0
+
+0x200F:02 - Running mode of external encoder
+0x0000 0
+
+0x200F:05 - External encoder pulses per motor revolution
+0x00002710 10000
+
+0x200F:09 - Hybrid deviation excess setting
+0x000003e8 1000
+
+0x200F:0b - Hybrid deviation clear setting
+0x0001 1
+
+0x200F:0e - First-order lowpass filter time of external/internal deviation
+0x0000 0
+
+0x200F:11 - Hybrid deviation counter
+0x00000000 0
+
+0x200F:13 - Pulse feedback display of internal encoder
+0x000f7f5f 1015647
+
+0x200F:15 - Pulse feedback display of external encoder
+0x00000000 0
+
+Subindexes :
+0x2017:00 - SubIndex 000
+0x41 65
+
+0x2017:01 - VDI1 Terminal Function Selection
+0x0000 0
+
+0x2017:02 - VDI1 Terminal Logic Selection
+0x0000 0
+
+0x2017:03 - VDI2 Terminal Function Selection
+0x0000 0
+
+0x2017:04 - VDI2 Terminal Logic Selection
+0x0000 0
+
+0x2017:05 - VDI3 Terminal Function Selection
+0x0000 0
+
+0x2017:06 - VDI3 Terminal Logic Selection
+0x0000 0
+
+0x2017:07 - VDI4 Terminal Function Selection
+0x0000 0
+
+0x2017:08 - VDI4 Terminal Logic Selection
+0x0000 0
+
+0x2017:09 - VDI5 Terminal Function Selection
+0x0000 0
+
+0x2017:0a - VDI5 Terminal Logic Selection
+0x0000 0
+
+0x2017:0b - VDI6 Terminal Function Selection
+0x0000 0
+
+0x2017:0c - VDI6 Terminal Logic Selection
+0x0000 0
+
+0x2017:0d - VDI7 Terminal Function Selection
+0x0000 0
+
+0x2017:0e - VDI7 Terminal Logic Selection
+0x0000 0
+
+0x2017:0f - VDI8 Terminal Function Selection
+0x0000 0
+
+0x2017:10 - VDI8 Terminal Logic Selection
+0x0000 0
+
+0x2017:11 - VDI9 Terminal Function Selection
+0x0000 0
+
+0x2017:12 - VDI9 Terminal Logic Selection
+0x0000 0
+
+0x2017:13 - VDI10 Terminal Function Selection
+0x0000 0
+
+0x2017:14 - VDI10 Terminal Logic Selection
+0x0000 0
+
+0x2017:15 - VDI11 Terminal Function Selection
+0x0000 0
+
+0x2017:16 - VDI11 Terminal Logic Selection
+0x0000 0
+
+0x2017:17 - VDI12 Terminal Function Selection
+0x0000 0
+
+0x2017:18 - VDI12 Terminal Logic Selection
+0x0000 0
+
+0x2017:19 - VDI13 Terminal Function Selection
+0x0000 0
+
+0x2017:1a - VDI13 Terminal Logic Selection
+0x0000 0
+
+0x2017:1b - VDI14 Terminal Function Selection
+0x0000 0
+
+0x2017:1c - VDI14 Terminal Logic Selection
+0x0000 0
+
+0x2017:1d - VDI15 Terminal Function Selection
+0x0000 0
+
+0x2017:1e - VDI15 Terminal Logic Selection
+0x0000 0
+
+0x2017:1f - VDI16 Terminal Function Selection
+0x0000 0
+
+0x2017:20 - VDI16 Terminal Logic Selection
+0x0000 0
+
+0x2017:21 - VDO virtual level
+0x0000 0
+
+0x2017:22 - VDO1 Terminal Function Selection
+0x0000 0
+
+0x2017:23 - VDO1 Terminal Logic Level Selection
+0x0000 0
+
+0x2017:24 - VDO2 Terminal Function Selection
+0x0000 0
+
+0x2017:25 - VDO2 Terminal Logic Level Selection
+0x0000 0
+
+0x2017:26 - VDO3 Terminal Function Selection
+0x0000 0
+
+0x2017:27 - VDO3 Terminal Logic Level Selection
+0x0000 0
+
+0x2017:28 - VDO4 Terminal Function Selection
+0x0000 0
+
+0x2017:29 - VDO4 Terminal Logic Level Selection
+0x0000 0
+
+0x2017:2a - VDO5 Terminal Function Selection
+0x0000 0
+
+0x2017:2b - VDO5 Terminal Logic Level Selection
+0x0000 0
+
+0x2017:2c - VDO6 Terminal Function Selection
+0x0000 0
+
+0x2017:2d - VDO6 Terminal Logic Level Selection
+0x0000 0
+
+0x2017:2e - VDO7 Terminal Function Selection
+0x0000 0
+
+0x2017:2f - VDO7 Terminal Logic Level Selection
+0x0000 0
+
+0x2017:30 - VDO8 Terminal Function Selection
+0x0000 0
+
+0x2017:31 - VDO8 Terminal Logic Level Selection
+0x0000 0
+
+0x2017:32 - VDO9 Terminal Function Selection
+0x0000 0
+
+0x2017:33 - VDO9 Terminal Logic Level Selection
+0x0000 0
+
+0x2017:34 - VDO10 Terminal Function Selection
+0x0000 0
+
+0x2017:35 - VDO10 Terminal Logic Level Selection
+0x0000 0
+
+0x2017:36 - VDO11 Terminal Function Selection
+0x0000 0
+
+0x2017:37 - VDO11 Terminal Logic Level Selection
+0x0000 0
+
+0x2017:38 - VDO12 Terminal Function Selection
+0x0000 0
+
+0x2017:39 - VDO12 Terminal Logic Level Selection
+0x0000 0
+
+0x2017:3a - VDO13 Terminal Function Selection
+0x0000 0
+
+0x2017:3b - VDO13 Terminal Logic Level Selection
+0x0000 0
+
+0x2017:3c - VDO14 Terminal Function Selection
+0x0000 0
+
+0x2017:3d - VDO14 Terminal Logic Level Selection
+0x0000 0
+
+0x2017:3e - VDO15 Terminal Function Selection
+0x0000 0
+
+0x2017:3f - VDO15 Terminal Logic Level Selection
+0x0000 0
+
+0x2017:40 - VDO16 Terminal Function Selection
+0x0000 0
+
+0x2017:41 - VDO16 Terminal Logic Level Selection
+0x0000 0
+
+Subindexes :
+0x2030:00 - SubIndex 000
+0x04 4
+
+0x2030:01 - Servo state read via communication
+0x1001 4097
+
+0x2030:02 - DO functionstate 1 read via communication
+0x0005 5
+
+0x2030:03 - DO function state 2 read via communication
+0x0000 0
+
+0x2030:04 - Reverse
+0x0000 0
+
+Subindexes :
+0x2031:00 - SubIndex 000
+0x05 5
+
+0x2031:01 - VDI virtuallevel set via communication
+0x0000 0
+
+0x2031:05 - DO state set via communication
+0x0000 0
+
+0x603F:00 - Error code
+0x0000 0
+
+0x6040:00 - Controlword
+0x0000 0
+
+0x6041:00 - Statusword
+0x0250 592
+
+0x605A:00 - Quick stop option code
+0x0002 2
+
+0x605D:00 - Halt option Code
+0x0001 1
+
+0x6060:00 - Modes of operation
+0x08 8
+
+0x6061:00 - Modes of operation display
+0x08 8
+
+0x6062:00 - Position demand value
+0x00000000 0
+
+0x6063:00 - Position actual value*
+0x000f7f63 1015651
+
+0x6064:00 - Position actual value
+0x000f7f63 1015651
+
+0x6065:00 - Following error window
+0x01a36ae7 27486951
+
+0x6067:00 - Position window
+0x000016f0 5872
+
+0x6068:00 - Position window time
+0x0000 0
+
+0x606C:00 - Velocity actual value
+0x00000000 0
+
+0x606D:00 - Velocity window
+0x000a 10
+
+0x606E:00 - Velocity window time
+0x0000 0
+
+0x6071:00 - Target torque
+0x0000 0
+
+0x6072:00 - Max Torque
+0x1388 5000
+
+0x6074:00 - Torque demand
+0x0000 0
+
+0x6077:00 - Torque actual value
+0xfffe -2
+
+0x607A:00 - Target position
+0x00000000 0
+
+0x607C:00 - Home offset
+0x00000000 0
+
+Subindexes :
+0x607D:00 - SubIndex 000
+0x02 2
+
+0x607D:01 - Min position limit
+0x80000000 -2147483648
+
+0x607D:02 - Max position limit
+0x7fffffff 2147483647
+
+0x607E:00 - Polarity
+0x00 0
+
+0x607F:00 - Max profile velocity
+0x32000000 838860800
+
+0x6081:00 - Profile velocity
+0x00d55555 13981013
+
+0x6083:00 - Profile acceleration
+0x41555555 1096111445
+
+0x6084:00 - Profile deceleration
+0x41555555 1096111445
+
+0x6085:00 - Quick stop deceleration
+0x41555555 1096111445
+
+0x6086:00 - Motion profile type
+0x0000 0
+
+0x6087:00 - Torque slope
+0xffffffff 4294967295
+
+Subindexes :
+0x6091:00 - SubIndex 000
+0x02 2
+
+0x6091:01 - Motor revolutions
+0x00000001 1
+
+0x6091:02 - Shaft revolutions
+0x00000001 1
+
+0x6098:00 - Homing method
+0x01 1
+
+Subindexes :
+0x6099:00 - Number of entries
+0x02 2
+
+0x6099:01 - Speed during search for switch
+0x00d55555 13981013
+
+0x6099:02 - Speed during search for zero
+0x00155555 1398101
+
+0x609A:00 - Homing acceleration
+0x41555555 1096111445
+
+0x60B0:00 - Position offset
+0x00000000 0
+
+0x60B1:00 - Velocity offset
+0x00000000 0
+
+0x60B2:00 - Torque offset
+0x0000 0
+
+0x60B8:00 - Touch probe function
+0x0000 0
+
+0x60B9:00 - Touch Probe Status
+0x0000 0
+
+0x60BA:00 - Touch Probe pos 1 pos value
+0x00000000 0
+
+0x60BB:00 - Touch Probe pos 1 neg value
+0x00000000 0
+
+0x60BC:00 - Touch Probe pos 2 pos value
+0x00000000 0
+
+0x60BD:00 - Touch Probe pos 2 neg value
+0x00000000 0
+
+0x60E0:00 - Positive torque limit value
+0x1388 5000
+
+0x60E1:00 - Negative torque limit value
+0x1388 5000
+
+Subindexes :
+0x60E3:00 - SubIndex 000
+0x1f 31
+
+0x60E3:01 - Support homing method 1
+0x0301 769
+
+0x60E3:02 - Support homing method 2
+0x0302 770
+
+0x60E3:03 - Support homing method 3
+0x0303 771
+
+0x60E3:04 - Support homing method 4
+0x0304 772
+
+0x60E3:05 - Support homing method 5
+0x0305 773
+
+0x60E3:06 - Support homing method 6
+0x0306 774
+
+0x60E3:07 - Support homing method 7
+0x0307 775
+
+0x60E3:08 - Support homing method 8
+0x0308 776
+
+0x60E3:09 - Support homing method 9
+0x0309 777
+
+0x60E3:0a - Support homing method 10
+0x030a 778
+
+0x60E3:0b - Support homing method 11
+0x030b 779
+
+0x60E3:0c - Support homing method 12
+0x030c 780
+
+0x60E3:0d - Support homing method 13
+0x030d 781
+
+0x60E3:0e - Support homing method 14
+0x030e 782
+
+0x60E3:0f - Support homing method 15
+0x0311 785
+
+0x60E3:10 - Support homing method 16
+0x0312 786
+
+0x60E3:11 - Support homing method 17
+0x0313 787
+
+0x60E3:12 - Support homing method 18
+0x0314 788
+
+0x60E3:13 - Support homing method 19
+0x0315 789
+
+0x60E3:14 - Support homing method 20
+0x0316 790
+
+0x60E3:15 - Support homing method 21
+0x0317 791
+
+0x60E3:16 - Support homing method 22
+0x0318 792
+
+0x60E3:17 - Support homing method 23
+0x0319 793
+
+0x60E3:18 - Support homing method 24
+0x031a 794
+
+0x60E3:19 - Support homing method 25
+0x031b 795
+
+0x60E3:1a - Support homing method 26
+0x031c 796
+
+0x60E3:1b - Support homing method 27
+0x031d 797
+
+0x60E3:1c - Support homing method 28
+0x031e 798
+
+0x60E3:1d - Support homing method 29
+0x0321 801
+
+0x60E3:1e - Support homing method 30
+0x0322 802
+
+0x60E3:1f - Support homing method 31
+0x0323 803
+
+0x60E6:00 - Actual Position Calucation Method
+0x00 0
+
+0x60F4:00 - Following error actual value
+0x00000000 0
+
+0x60FC:00 - Position demand internal value
+0x00000000 0
+
+0x60FD:00 - Digital inputs
+0x18000000 402653184
+
+Subindexes :
+0x60FE:00 - SubIndex 000
+0x02 2
+
+0x60FE:01 - Physical outputs
+0x00000000 0
+
+0x60FF:00 - Target velocity
+0x00000000 0
+
+0x6502:00 - Supported drive modes
+0x000003ad 941
+
