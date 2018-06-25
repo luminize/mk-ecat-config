@@ -16,6 +16,7 @@ os.chdir(os.path.dirname(os.path.realpath(__file__)))
 
 parser = argparse.ArgumentParser(description='EtherCAT test setup run script')
 parser.add_argument('-c', '--config', help='Give the name of the EtherCAT configuration to use', action='store')
+parser.add_argument('-d', '--demo', help='Demo setup, no EtherCAT', action='store_true')
 
 args = parser.parse_args()
 
@@ -26,8 +27,8 @@ try:
     
     rt.init_RTAPI()
     # LOAD ALL THE IMPORTANT STUFF HERE
-    base_config.instantiate_components(args.config)
     base_config.instantiate_threads()
+    base_config.instantiate_components(args.config, args.demo)
     base_config.add_components_to_thread()
 
     hal.start_threads()
