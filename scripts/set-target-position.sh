@@ -2,4 +2,4 @@
 
 POSITION=$1
 echo "target position = $POSITION"
-halcmd setp lcec.0.3.target-position $POSITION
+halcmd setp joint6_offset.in $POSITION
