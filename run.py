@@ -30,9 +30,6 @@ try:
     # LOAD ALL THE IMPORTANT STUFF HERE
     base_config.instantiate_threads()
     base_config.instantiate_components(args)
-    base_config.add_components_to_thread()
-
-    hal.start_threads()
 
     launcher.register_exit_handler()
 
