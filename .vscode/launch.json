@@ -15,6 +15,24 @@
             ],
         },
         {
+            "name": "Python: rb07",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": [
+                "-c ethercat-rb07.xml"
+            ],
+        },
+        {
+            "name": "Python: Demo, no EtherCAT",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": [
+                "-d"
+            ],
+        },
+        {
             "name": "Python: OD values from XML",
             "type": "python",
             "request": "launch",
@@ -24,7 +42,12 @@
                 "-n=5"
             ],
         },
-
+        {
+            "name": "Python: Basic",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+        },
         {
             "name": "Python: Attach",
             "type": "python",
