@@ -68,7 +68,7 @@ def create_fb_simulation(st, joint_nr):
 def connect_lcec(st, testsetup=False):
     if testsetup == False:
         for joint_nr in range(1,7):
-            pass
+            connect_lcec_to_plumbing(joint_nr, (joint_nr - 1))
     else:
         connect_lcec_to_plumbing(6,3)
 
@@ -107,8 +107,8 @@ def setup_joints(st):
     # read joint offset from ini file
     for joint_nr in range(1,7):
         create_joint_plumbing(st, joint_nr)
-        enc_scale = joints_config.get('joint%s' % joint_nr, 'encoder_scale')
-        gearbox_i = joints_config.get('joint%s' % joint_nr, 'gear_ratio')
+        enc_scale = joints_config.get('joint_%s' % joint_nr, 'encoder_scale')
+        gearbox_i = joints_config.get('joint_%s' % joint_nr, 'gear_ratio')
         set_joint_scale(joint_nr, float(enc_scale) * float(gearbox_i))
 
 
