@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
-POSITION=$1
-echo "target position = $POSITION"
-halcmd setp joint6_offset.in $POSITION
+POSITION=$2
+JOINT=$1
+echo "target position joint $JOINT = $POSITION"
+halcmd setp joint${JOINT}_jplan.0.pos-cmd $POSITION

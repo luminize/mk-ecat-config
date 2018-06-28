@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 
 ## state machine control word -> 0
-./set-402-stop.sh
+JOINT=$1
+./set-402-stop.sh ${JOINT}
 
 ## reset fault
-halcmd setp lcec.0.3.fault-reset 1
-halcmd setp lcec.0.3.fault-reset 0
+halcmd setp lcec.0.$((JOINT - 1)).fault-reset 1
+halcmd setp lcec.0.$((JOINT - 1)).fault-reset 0
