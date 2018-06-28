@@ -1,0 +1,502 @@
+<masters>
+  <master idx="0" appTimePeriod="1000000" refClockSyncCycles="1000">
+    <slave idx="0" type="generic" vid="00100000" pid="000c0108">
+      <dcConf assignActivate="300" sync0Cycle="*1"/>
+      <!-- Mailboxes -->
+      <!--syncManager idx="0" dir="out"/ -->
+      <!--syncManager idx="1" dir="in"/-->
+      <!-- Outputs, RPDO of slave -->
+      <syncManager idx="2" dir="out">
+        <pdo idx="1701"> 
+          <pdoEntry idx="6040" subIdx="00" bitLen="16" halType="complex">
+            <!-- Bit0: Pre-charge relay closed -->
+            <complexEntry bitLen="1" halType="bit" halPin="pre-charge-relay-closed"/>
+            <!-- Bit1: Main power on -->
+            <complexEntry bitLen="1" halType="bit" halPin="main-power-on"/>
+            <!-- Bit2: Quick stop -->
+            <complexEntry bitLen="1" halType="bit" halPin="quick-stop"/>
+            <!-- Bit3: Operation enabled -->
+            <complexEntry bitLen="1" halType="bit" halPin="operation-enabled"/>
+            <!-- Bit4~Bit6: Operation method definition -->
+            <complexEntry bitLen="3" halType="bit" halPin="operation-method"/>
+            <!-- Bit7: Fault reset -->
+            <complexEntry bitLen="1" halType="bit" halPin="fault-reset"/>
+            <!-- Bit8: Stop -->
+            <complexEntry bitLen="1" halType="bit" halPin="stop"/>
+            <!-- Bit9~Bit10: Reserved -->
+            <complexEntry bitLen="2" />
+            <!-- Bit11: Manufacturer definition -->
+            <complexEntry bitLen="1" />
+            <!-- Bit12: The rising edge is valid and the encoder is reset -->
+            <complexEntry bitLen="1" halType="bit" halPin="encoder-reset" />
+            <!-- Bit13~Bit15: Manufacturer definition -->
+            <complexEntry bitLen="3" />
+          </pdoEntry>
+          <pdoEntry idx="607a" subIdx="00" bitLen="32" halType="s32" halPin="target-position"/>
+          <pdoEntry idx="60b8" subIdx="00" bitLen="16" halType="u32" halPin="touch-probe-function"/>
+          <pdoEntry idx="60fe" subIdx="01" bitLen="32" halType="u32" halPin="physical-outputs"/>
+        </pdo>
+      </syncManager>
+      <!-- Outputs, TPDO of slave -->
+      <syncManager idx="3" dir="in">
+        <pdo idx="1B01"> 
+          <pdoEntry idx="603f" subIdx="00" bitLen="16" halType="u32" halPin="error-code"/>
+      	  <pdoEntry idx="6041" subIdx="00" bitLen="16" halType="complex">
+            <!-- Bit0: Pre-charge relay is ready for closure -->
+            <complexEntry bitLen="1" halType="bit" halPin="pre-charge-relay-ready" />
+            <!-- Bit1: Pre-charge relay closed -->
+            <complexEntry bitLen="1" halType="bit" halPin="pre-charge-relay-closed-read" />
+            <!-- Bit2: Operation enabled -->
+            <complexEntry bitLen="1" halType="bit" halPin="operation-enabled-read" />
+            <!-- Bit3: Fault -->
+            <complexEntry bitLen="1" halType="bit" halPin="fault" />
+            <!-- Bit4: Main power flag bit (1: main power on, 0: main power off) -->
+            <complexEntry bitLen="1" halType="bit" halPin="main-power-on-fb" />
+            <!-- Bit5: Quick stop -->
+            <complexEntry bitLen="1" halType="bit" halPin="quick-stop-fb" />
+            <!-- Bit6: Pre-charge relay closure disabled (1: alarm occurred, 0: no alarm) -->
+            <complexEntry bitLen="1" halType="bit" halPin="pre-charge-relay-disabled" />
+            <!-- Bit7: Warning bit -->
+            <complexEntry bitLen="1" halType="bit" halPin="warning" />
+            <!-- Bit8: Motor power flag bit (1: motor is working 0: motor is not working) -->
+            <complexEntry bitLen="1" halType="bit" halPin="motor-power-on" />
+            <!-- Bit9: Remote (1: control word processed 0: control word not processed) -->
+            <complexEntry bitLen="1" halType="bit" halPin="remote-processed" />
+            <!-- Bit10: Target completed flag bit (1: target completed 0: target not completed) -->
+            <complexEntry bitLen="1" halType="bit" halPin="target-completed" />
+            <!-- Bit11: Instruction internal limit flag bit (1: limits in instruction 0: no limit in instruction)-->
+            <complexEntry bitLen="1" halType="bit" halPin="instruction-internal-limit" />
+            <!-- Bit12~Bit13 are depending on the current mode (see Table 7.3-2) -->
+            <complexEntry bitLen="2" halType="bit" halPin="mode-flag" />
+            <!-- Bit14: Motor rotation flag bit (1: motor is rotating 0: motor is at rest) -->
+            <complexEntry bitLen="1" halType="bit" halPin="motor-rotating" />
+            <!-- Bit15: Reserved -->
+            <complexEntry bitLen="1" />
+          </pdoEntry>
+ 	        <pdoEntry idx="6064" subIdx="00" bitLen="32" halType="s32" halPin="position-actual-value"/>
+          <pdoEntry idx="6077" subIdx="00" bitLen="16" halType="s32" halPin="torque-actual-value"/>
+          <pdoEntry idx="60f4" subIdx="00" bitLen="32" halType="s32" halPin="following-error-actual-value"/>
+          <pdoEntry idx="60b9" subIdx="00" bitLen="16" halType="u32" halPin="touch-probe-status"/>
+          <pdoEntry idx="60ba" subIdx="00" bitLen="32" halType="s32" halPin="touch-probe-pos1-pos-value"/>
+          <pdoEntry idx="60bc" subIdx="00" bitLen="32" halType="s32" halPin="touch-probe-pos2-pos-value"/>
+          <pdoEntry idx="60fd" subIdx="00" bitLen="32" halType="u32" halPin="digital-inputs"/>
+        </pdo>
+      </syncManager>      
+    </slave>
+    <slave idx="1" type="generic" vid="00100000" pid="000c0108">
+      <dcConf assignActivate="300" sync0Cycle="*1"/>
+      <!-- Mailboxes -->
+      <!--syncManager idx="0" dir="out"/ -->
+      <!--syncManager idx="1" dir="in"/-->
+      <!-- Outputs, RPDO of slave -->
+      <syncManager idx="2" dir="out">
+        <pdo idx="1701"> 
+          <pdoEntry idx="6040" subIdx="00" bitLen="16" halType="complex">
+            <!-- Bit0: Pre-charge relay closed -->
+            <complexEntry bitLen="1" halType="bit" halPin="pre-charge-relay-closed"/>
+            <!-- Bit1: Main power on -->
+            <complexEntry bitLen="1" halType="bit" halPin="main-power-on"/>
+            <!-- Bit2: Quick stop -->
+            <complexEntry bitLen="1" halType="bit" halPin="quick-stop"/>
+            <!-- Bit3: Operation enabled -->
+            <complexEntry bitLen="1" halType="bit" halPin="operation-enabled"/>
+            <!-- Bit4~Bit6: Operation method definition -->
+            <complexEntry bitLen="3" halType="bit" halPin="operation-method"/>
+            <!-- Bit7: Fault reset -->
+            <complexEntry bitLen="1" halType="bit" halPin="fault-reset"/>
+            <!-- Bit8: Stop -->
+            <complexEntry bitLen="1" halType="bit" halPin="stop"/>
+            <!-- Bit9~Bit10: Reserved -->
+            <complexEntry bitLen="2" />
+            <!-- Bit11: Manufacturer definition -->
+            <complexEntry bitLen="1" />
+            <!-- Bit12: The rising edge is valid and the encoder is reset -->
+            <complexEntry bitLen="1" halType="bit" halPin="encoder-reset" />
+            <!-- Bit13~Bit15: Manufacturer definition -->
+            <complexEntry bitLen="3" />
+          </pdoEntry>
+          <pdoEntry idx="607a" subIdx="00" bitLen="32" halType="s32" halPin="target-position"/>
+          <pdoEntry idx="60b8" subIdx="00" bitLen="16" halType="u32" halPin="touch-probe-function"/>
+          <pdoEntry idx="60fe" subIdx="01" bitLen="32" halType="u32" halPin="physical-outputs"/>
+        </pdo>
+      </syncManager>
+      <!-- Outputs, TPDO of slave -->
+      <syncManager idx="3" dir="in">
+        <pdo idx="1B01"> 
+          <pdoEntry idx="603f" subIdx="00" bitLen="16" halType="u32" halPin="error-code"/>
+      	  <pdoEntry idx="6041" subIdx="00" bitLen="16" halType="complex">
+            <!-- Bit0: Pre-charge relay is ready for closure -->
+            <complexEntry bitLen="1" halType="bit" halPin="pre-charge-relay-ready" />
+            <!-- Bit1: Pre-charge relay closed -->
+            <complexEntry bitLen="1" halType="bit" halPin="pre-charge-relay-closed-read" />
+            <!-- Bit2: Operation enabled -->
+            <complexEntry bitLen="1" halType="bit" halPin="operation-enabled-read" />
+            <!-- Bit3: Fault -->
+            <complexEntry bitLen="1" halType="bit" halPin="fault" />
+            <!-- Bit4: Main power flag bit (1: main power on, 0: main power off) -->
+            <complexEntry bitLen="1" halType="bit" halPin="main-power-on-fb" />
+            <!-- Bit5: Quick stop -->
+            <complexEntry bitLen="1" halType="bit" halPin="quick-stop-fb" />
+            <!-- Bit6: Pre-charge relay closure disabled (1: alarm occurred, 0: no alarm) -->
+            <complexEntry bitLen="1" halType="bit" halPin="pre-charge-relay-disabled" />
+            <!-- Bit7: Warning bit -->
+            <complexEntry bitLen="1" halType="bit" halPin="warning" />
+            <!-- Bit8: Motor power flag bit (1: motor is working 0: motor is not working) -->
+            <complexEntry bitLen="1" halType="bit" halPin="motor-power-on" />
+            <!-- Bit9: Remote (1: control word processed 0: control word not processed) -->
+            <complexEntry bitLen="1" halType="bit" halPin="remote-processed" />
+            <!-- Bit10: Target completed flag bit (1: target completed 0: target not completed) -->
+            <complexEntry bitLen="1" halType="bit" halPin="target-completed" />
+            <!-- Bit11: Instruction internal limit flag bit (1: limits in instruction 0: no limit in instruction)-->
+            <complexEntry bitLen="1" halType="bit" halPin="instruction-internal-limit" />
+            <!-- Bit12~Bit13 are depending on the current mode (see Table 7.3-2) -->
+            <complexEntry bitLen="2" halType="bit" halPin="mode-flag" />
+            <!-- Bit14: Motor rotation flag bit (1: motor is rotating 0: motor is at rest) -->
+            <complexEntry bitLen="1" halType="bit" halPin="motor-rotating" />
+            <!-- Bit15: Reserved -->
+            <complexEntry bitLen="1" />
+          </pdoEntry>
+ 	        <pdoEntry idx="6064" subIdx="00" bitLen="32" halType="s32" halPin="position-actual-value"/>
+          <pdoEntry idx="6077" subIdx="00" bitLen="16" halType="s32" halPin="torque-actual-value"/>
+          <pdoEntry idx="60f4" subIdx="00" bitLen="32" halType="s32" halPin="following-error-actual-value"/>
+          <pdoEntry idx="60b9" subIdx="00" bitLen="16" halType="u32" halPin="touch-probe-status"/>
+          <pdoEntry idx="60ba" subIdx="00" bitLen="32" halType="s32" halPin="touch-probe-pos1-pos-value"/>
+          <pdoEntry idx="60bc" subIdx="00" bitLen="32" halType="s32" halPin="touch-probe-pos2-pos-value"/>
+          <pdoEntry idx="60fd" subIdx="00" bitLen="32" halType="u32" halPin="digital-inputs"/>
+        </pdo>
+      </syncManager>      
+    </slave>
+    <slave idx="2" type="generic" vid="00100000" pid="000c0108">
+      <dcConf assignActivate="300" sync0Cycle="*1"/>
+      <!-- Mailboxes -->
+      <!--syncManager idx="0" dir="out"/ -->
+      <!--syncManager idx="1" dir="in"/-->
+      <!-- Outputs, RPDO of slave -->
+      <syncManager idx="2" dir="out">
+        <pdo idx="1701"> 
+          <pdoEntry idx="6040" subIdx="00" bitLen="16" halType="complex">
+            <!-- Bit0: Pre-charge relay closed -->
+            <complexEntry bitLen="1" halType="bit" halPin="pre-charge-relay-closed"/>
+            <!-- Bit1: Main power on -->
+            <complexEntry bitLen="1" halType="bit" halPin="main-power-on"/>
+            <!-- Bit2: Quick stop -->
+            <complexEntry bitLen="1" halType="bit" halPin="quick-stop"/>
+            <!-- Bit3: Operation enabled -->
+            <complexEntry bitLen="1" halType="bit" halPin="operation-enabled"/>
+            <!-- Bit4~Bit6: Operation method definition -->
+            <complexEntry bitLen="3" halType="bit" halPin="operation-method"/>
+            <!-- Bit7: Fault reset -->
+            <complexEntry bitLen="1" halType="bit" halPin="fault-reset"/>
+            <!-- Bit8: Stop -->
+            <complexEntry bitLen="1" halType="bit" halPin="stop"/>
+            <!-- Bit9~Bit10: Reserved -->
+            <complexEntry bitLen="2" />
+            <!-- Bit11: Manufacturer definition -->
+            <complexEntry bitLen="1" />
+            <!-- Bit12: The rising edge is valid and the encoder is reset -->
+            <complexEntry bitLen="1" halType="bit" halPin="encoder-reset" />
+            <!-- Bit13~Bit15: Manufacturer definition -->
+            <complexEntry bitLen="3" />
+          </pdoEntry>
+          <pdoEntry idx="607a" subIdx="00" bitLen="32" halType="s32" halPin="target-position"/>
+          <pdoEntry idx="60b8" subIdx="00" bitLen="16" halType="u32" halPin="touch-probe-function"/>
+          <pdoEntry idx="60fe" subIdx="01" bitLen="32" halType="u32" halPin="physical-outputs"/>
+        </pdo>
+      </syncManager>
+      <!-- Outputs, TPDO of slave -->
+      <syncManager idx="3" dir="in">
+        <pdo idx="1B01"> 
+          <pdoEntry idx="603f" subIdx="00" bitLen="16" halType="u32" halPin="error-code"/>
+      	  <pdoEntry idx="6041" subIdx="00" bitLen="16" halType="complex">
+            <!-- Bit0: Pre-charge relay is ready for closure -->
+            <complexEntry bitLen="1" halType="bit" halPin="pre-charge-relay-ready" />
+            <!-- Bit1: Pre-charge relay closed -->
+            <complexEntry bitLen="1" halType="bit" halPin="pre-charge-relay-closed-read" />
+            <!-- Bit2: Operation enabled -->
+            <complexEntry bitLen="1" halType="bit" halPin="operation-enabled-read" />
+            <!-- Bit3: Fault -->
+            <complexEntry bitLen="1" halType="bit" halPin="fault" />
+            <!-- Bit4: Main power flag bit (1: main power on, 0: main power off) -->
+            <complexEntry bitLen="1" halType="bit" halPin="main-power-on-fb" />
+            <!-- Bit5: Quick stop -->
+            <complexEntry bitLen="1" halType="bit" halPin="quick-stop-fb" />
+            <!-- Bit6: Pre-charge relay closure disabled (1: alarm occurred, 0: no alarm) -->
+            <complexEntry bitLen="1" halType="bit" halPin="pre-charge-relay-disabled" />
+            <!-- Bit7: Warning bit -->
+            <complexEntry bitLen="1" halType="bit" halPin="warning" />
+            <!-- Bit8: Motor power flag bit (1: motor is working 0: motor is not working) -->
+            <complexEntry bitLen="1" halType="bit" halPin="motor-power-on" />
+            <!-- Bit9: Remote (1: control word processed 0: control word not processed) -->
+            <complexEntry bitLen="1" halType="bit" halPin="remote-processed" />
+            <!-- Bit10: Target completed flag bit (1: target completed 0: target not completed) -->
+            <complexEntry bitLen="1" halType="bit" halPin="target-completed" />
+            <!-- Bit11: Instruction internal limit flag bit (1: limits in instruction 0: no limit in instruction)-->
+            <complexEntry bitLen="1" halType="bit" halPin="instruction-internal-limit" />
+            <!-- Bit12~Bit13 are depending on the current mode (see Table 7.3-2) -->
+            <complexEntry bitLen="2" halType="bit" halPin="mode-flag" />
+            <!-- Bit14: Motor rotation flag bit (1: motor is rotating 0: motor is at rest) -->
+            <complexEntry bitLen="1" halType="bit" halPin="motor-rotating" />
+            <!-- Bit15: Reserved -->
+            <complexEntry bitLen="1" />
+          </pdoEntry>
+ 	        <pdoEntry idx="6064" subIdx="00" bitLen="32" halType="s32" halPin="position-actual-value"/>
+          <pdoEntry idx="6077" subIdx="00" bitLen="16" halType="s32" halPin="torque-actual-value"/>
+          <pdoEntry idx="60f4" subIdx="00" bitLen="32" halType="s32" halPin="following-error-actual-value"/>
+          <pdoEntry idx="60b9" subIdx="00" bitLen="16" halType="u32" halPin="touch-probe-status"/>
+          <pdoEntry idx="60ba" subIdx="00" bitLen="32" halType="s32" halPin="touch-probe-pos1-pos-value"/>
+          <pdoEntry idx="60bc" subIdx="00" bitLen="32" halType="s32" halPin="touch-probe-pos2-pos-value"/>
+          <pdoEntry idx="60fd" subIdx="00" bitLen="32" halType="u32" halPin="digital-inputs"/>
+        </pdo>
+      </syncManager>      
+    </slave>
+    <slave idx="3" type="generic" vid="00100000" pid="000c0108">
+      <dcConf assignActivate="300" sync0Cycle="*1"/>
+      <!-- Mailboxes -->
+      <!--syncManager idx="0" dir="out"/ -->
+      <!--syncManager idx="1" dir="in"/-->
+      <!-- Outputs, RPDO of slave -->
+      <syncManager idx="2" dir="out">
+        <pdo idx="1701"> 
+          <pdoEntry idx="6040" subIdx="00" bitLen="16" halType="complex">
+            <!-- Bit0: Pre-charge relay closed -->
+            <complexEntry bitLen="1" halType="bit" halPin="pre-charge-relay-closed"/>
+            <!-- Bit1: Main power on -->
+            <complexEntry bitLen="1" halType="bit" halPin="main-power-on"/>
+            <!-- Bit2: Quick stop -->
+            <complexEntry bitLen="1" halType="bit" halPin="quick-stop"/>
+            <!-- Bit3: Operation enabled -->
+            <complexEntry bitLen="1" halType="bit" halPin="operation-enabled"/>
+            <!-- Bit4~Bit6: Operation method definition -->
+            <complexEntry bitLen="3" halType="bit" halPin="operation-method"/>
+            <!-- Bit7: Fault reset -->
+            <complexEntry bitLen="1" halType="bit" halPin="fault-reset"/>
+            <!-- Bit8: Stop -->
+            <complexEntry bitLen="1" halType="bit" halPin="stop"/>
+            <!-- Bit9~Bit10: Reserved -->
+            <complexEntry bitLen="2" />
+            <!-- Bit11: Manufacturer definition -->
+            <complexEntry bitLen="1" />
+            <!-- Bit12: The rising edge is valid and the encoder is reset -->
+            <complexEntry bitLen="1" halType="bit" halPin="encoder-reset" />
+            <!-- Bit13~Bit15: Manufacturer definition -->
+            <complexEntry bitLen="3" />
+          </pdoEntry>
+          <pdoEntry idx="607a" subIdx="00" bitLen="32" halType="s32" halPin="target-position"/>
+          <pdoEntry idx="60b8" subIdx="00" bitLen="16" halType="u32" halPin="touch-probe-function"/>
+          <pdoEntry idx="60fe" subIdx="01" bitLen="32" halType="u32" halPin="physical-outputs"/>
+        </pdo>
+      </syncManager>
+      <!-- Outputs, TPDO of slave -->
+      <syncManager idx="3" dir="in">
+        <pdo idx="1B01"> 
+          <pdoEntry idx="603f" subIdx="00" bitLen="16" halType="u32" halPin="error-code"/>
+      	  <pdoEntry idx="6041" subIdx="00" bitLen="16" halType="complex">
+            <!-- Bit0: Pre-charge relay is ready for closure -->
+            <complexEntry bitLen="1" halType="bit" halPin="pre-charge-relay-ready" />
+            <!-- Bit1: Pre-charge relay closed -->
+            <complexEntry bitLen="1" halType="bit" halPin="pre-charge-relay-closed-read" />
+            <!-- Bit2: Operation enabled -->
+            <complexEntry bitLen="1" halType="bit" halPin="operation-enabled-read" />
+            <!-- Bit3: Fault -->
+            <complexEntry bitLen="1" halType="bit" halPin="fault" />
+            <!-- Bit4: Main power flag bit (1: main power on, 0: main power off) -->
+            <complexEntry bitLen="1" halType="bit" halPin="main-power-on-fb" />
+            <!-- Bit5: Quick stop -->
+            <complexEntry bitLen="1" halType="bit" halPin="quick-stop-fb" />
+            <!-- Bit6: Pre-charge relay closure disabled (1: alarm occurred, 0: no alarm) -->
+            <complexEntry bitLen="1" halType="bit" halPin="pre-charge-relay-disabled" />
+            <!-- Bit7: Warning bit -->
+            <complexEntry bitLen="1" halType="bit" halPin="warning" />
+            <!-- Bit8: Motor power flag bit (1: motor is working 0: motor is not working) -->
+            <complexEntry bitLen="1" halType="bit" halPin="motor-power-on" />
+            <!-- Bit9: Remote (1: control word processed 0: control word not processed) -->
+            <complexEntry bitLen="1" halType="bit" halPin="remote-processed" />
+            <!-- Bit10: Target completed flag bit (1: target completed 0: target not completed) -->
+            <complexEntry bitLen="1" halType="bit" halPin="target-completed" />
+            <!-- Bit11: Instruction internal limit flag bit (1: limits in instruction 0: no limit in instruction)-->
+            <complexEntry bitLen="1" halType="bit" halPin="instruction-internal-limit" />
+            <!-- Bit12~Bit13 are depending on the current mode (see Table 7.3-2) -->
+            <complexEntry bitLen="2" halType="bit" halPin="mode-flag" />
+            <!-- Bit14: Motor rotation flag bit (1: motor is rotating 0: motor is at rest) -->
+            <complexEntry bitLen="1" halType="bit" halPin="motor-rotating" />
+            <!-- Bit15: Reserved -->
+            <complexEntry bitLen="1" />
+          </pdoEntry>
+ 	        <pdoEntry idx="6064" subIdx="00" bitLen="32" halType="s32" halPin="position-actual-value"/>
+          <pdoEntry idx="6077" subIdx="00" bitLen="16" halType="s32" halPin="torque-actual-value"/>
+          <pdoEntry idx="60f4" subIdx="00" bitLen="32" halType="s32" halPin="following-error-actual-value"/>
+          <pdoEntry idx="60b9" subIdx="00" bitLen="16" halType="u32" halPin="touch-probe-status"/>
+          <pdoEntry idx="60ba" subIdx="00" bitLen="32" halType="s32" halPin="touch-probe-pos1-pos-value"/>
+          <pdoEntry idx="60bc" subIdx="00" bitLen="32" halType="s32" halPin="touch-probe-pos2-pos-value"/>
+          <pdoEntry idx="60fd" subIdx="00" bitLen="32" halType="u32" halPin="digital-inputs"/>
+        </pdo>
+      </syncManager>      
+    </slave>
+    <slave idx="4" type="generic" vid="00100000" pid="000c0108">
+      <dcConf assignActivate="300" sync0Cycle="*1"/>
+      <!-- Mailboxes -->
+      <!--syncManager idx="0" dir="out"/ -->
+      <!--syncManager idx="1" dir="in"/-->
+      <!-- Outputs, RPDO of slave -->
+      <syncManager idx="2" dir="out">
+        <pdo idx="1701"> 
+          <pdoEntry idx="6040" subIdx="00" bitLen="16" halType="complex">
+            <!-- Bit0: Pre-charge relay closed -->
+            <complexEntry bitLen="1" halType="bit" halPin="pre-charge-relay-closed"/>
+            <!-- Bit1: Main power on -->
+            <complexEntry bitLen="1" halType="bit" halPin="main-power-on"/>
+            <!-- Bit2: Quick stop -->
+            <complexEntry bitLen="1" halType="bit" halPin="quick-stop"/>
+            <!-- Bit3: Operation enabled -->
+            <complexEntry bitLen="1" halType="bit" halPin="operation-enabled"/>
+            <!-- Bit4~Bit6: Operation method definition -->
+            <complexEntry bitLen="3" halType="bit" halPin="operation-method"/>
+            <!-- Bit7: Fault reset -->
+            <complexEntry bitLen="1" halType="bit" halPin="fault-reset"/>
+            <!-- Bit8: Stop -->
+            <complexEntry bitLen="1" halType="bit" halPin="stop"/>
+            <!-- Bit9~Bit10: Reserved -->
+            <complexEntry bitLen="2" />
+            <!-- Bit11: Manufacturer definition -->
+            <complexEntry bitLen="1" />
+            <!-- Bit12: The rising edge is valid and the encoder is reset -->
+            <complexEntry bitLen="1" halType="bit" halPin="encoder-reset" />
+            <!-- Bit13~Bit15: Manufacturer definition -->
+            <complexEntry bitLen="3" />
+          </pdoEntry>
+          <pdoEntry idx="607a" subIdx="00" bitLen="32" halType="s32" halPin="target-position"/>
+          <pdoEntry idx="60b8" subIdx="00" bitLen="16" halType="u32" halPin="touch-probe-function"/>
+          <pdoEntry idx="60fe" subIdx="01" bitLen="32" halType="u32" halPin="physical-outputs"/>
+        </pdo>
+      </syncManager>
+      <!-- Outputs, TPDO of slave -->
+      <syncManager idx="3" dir="in">
+        <pdo idx="1B01"> 
+          <pdoEntry idx="603f" subIdx="00" bitLen="16" halType="u32" halPin="error-code"/>
+      	  <pdoEntry idx="6041" subIdx="00" bitLen="16" halType="complex">
+            <!-- Bit0: Pre-charge relay is ready for closure -->
+            <complexEntry bitLen="1" halType="bit" halPin="pre-charge-relay-ready" />
+            <!-- Bit1: Pre-charge relay closed -->
+            <complexEntry bitLen="1" halType="bit" halPin="pre-charge-relay-closed-read" />
+            <!-- Bit2: Operation enabled -->
+            <complexEntry bitLen="1" halType="bit" halPin="operation-enabled-read" />
+            <!-- Bit3: Fault -->
+            <complexEntry bitLen="1" halType="bit" halPin="fault" />
+            <!-- Bit4: Main power flag bit (1: main power on, 0: main power off) -->
+            <complexEntry bitLen="1" halType="bit" halPin="main-power-on-fb" />
+            <!-- Bit5: Quick stop -->
+            <complexEntry bitLen="1" halType="bit" halPin="quick-stop-fb" />
+            <!-- Bit6: Pre-charge relay closure disabled (1: alarm occurred, 0: no alarm) -->
+            <complexEntry bitLen="1" halType="bit" halPin="pre-charge-relay-disabled" />
+            <!-- Bit7: Warning bit -->
+            <complexEntry bitLen="1" halType="bit" halPin="warning" />
+            <!-- Bit8: Motor power flag bit (1: motor is working 0: motor is not working) -->
+            <complexEntry bitLen="1" halType="bit" halPin="motor-power-on" />
+            <!-- Bit9: Remote (1: control word processed 0: control word not processed) -->
+            <complexEntry bitLen="1" halType="bit" halPin="remote-processed" />
+            <!-- Bit10: Target completed flag bit (1: target completed 0: target not completed) -->
+            <complexEntry bitLen="1" halType="bit" halPin="target-completed" />
+            <!-- Bit11: Instruction internal limit flag bit (1: limits in instruction 0: no limit in instruction)-->
+            <complexEntry bitLen="1" halType="bit" halPin="instruction-internal-limit" />
+            <!-- Bit12~Bit13 are depending on the current mode (see Table 7.3-2) -->
+            <complexEntry bitLen="2" halType="bit" halPin="mode-flag" />
+            <!-- Bit14: Motor rotation flag bit (1: motor is rotating 0: motor is at rest) -->
+            <complexEntry bitLen="1" halType="bit" halPin="motor-rotating" />
+            <!-- Bit15: Reserved -->
+            <complexEntry bitLen="1" />
+          </pdoEntry>
+ 	        <pdoEntry idx="6064" subIdx="00" bitLen="32" halType="s32" halPin="position-actual-value"/>
+          <pdoEntry idx="6077" subIdx="00" bitLen="16" halType="s32" halPin="torque-actual-value"/>
+          <pdoEntry idx="60f4" subIdx="00" bitLen="32" halType="s32" halPin="following-error-actual-value"/>
+          <pdoEntry idx="60b9" subIdx="00" bitLen="16" halType="u32" halPin="touch-probe-status"/>
+          <pdoEntry idx="60ba" subIdx="00" bitLen="32" halType="s32" halPin="touch-probe-pos1-pos-value"/>
+          <pdoEntry idx="60bc" subIdx="00" bitLen="32" halType="s32" halPin="touch-probe-pos2-pos-value"/>
+          <pdoEntry idx="60fd" subIdx="00" bitLen="32" halType="u32" halPin="digital-inputs"/>
+        </pdo>
+      </syncManager>      
+    </slave>
+    <slave idx="5" type="generic" vid="00100000" pid="000c0108">
+      <dcConf assignActivate="300" sync0Cycle="*1"/>
+      <!-- Mailboxes -->
+      <!--syncManager idx="0" dir="out"/ -->
+      <!--syncManager idx="1" dir="in"/-->
+      <!-- Outputs, RPDO of slave -->
+      <syncManager idx="2" dir="out">
+        <pdo idx="1701"> 
+          <pdoEntry idx="6040" subIdx="00" bitLen="16" halType="complex">
+            <!-- Bit0: Pre-charge relay closed -->
+            <complexEntry bitLen="1" halType="bit" halPin="pre-charge-relay-closed"/>
+            <!-- Bit1: Main power on -->
+            <complexEntry bitLen="1" halType="bit" halPin="main-power-on"/>
+            <!-- Bit2: Quick stop -->
+            <complexEntry bitLen="1" halType="bit" halPin="quick-stop"/>
+            <!-- Bit3: Operation enabled -->
+            <complexEntry bitLen="1" halType="bit" halPin="operation-enabled"/>
+            <!-- Bit4~Bit6: Operation method definition -->
+            <complexEntry bitLen="3" halType="bit" halPin="operation-method"/>
+            <!-- Bit7: Fault reset -->
+            <complexEntry bitLen="1" halType="bit" halPin="fault-reset"/>
+            <!-- Bit8: Stop -->
+            <complexEntry bitLen="1" halType="bit" halPin="stop"/>
+            <!-- Bit9~Bit10: Reserved -->
+            <complexEntry bitLen="2" />
+            <!-- Bit11: Manufacturer definition -->
+            <complexEntry bitLen="1" />
+            <!-- Bit12: The rising edge is valid and the encoder is reset -->
+            <complexEntry bitLen="1" halType="bit" halPin="encoder-reset" />
+            <!-- Bit13~Bit15: Manufacturer definition -->
+            <complexEntry bitLen="3" />
+          </pdoEntry>
+          <pdoEntry idx="607a" subIdx="00" bitLen="32" halType="s32" halPin="target-position"/>
+          <pdoEntry idx="60b8" subIdx="00" bitLen="16" halType="u32" halPin="touch-probe-function"/>
+          <pdoEntry idx="60fe" subIdx="01" bitLen="32" halType="u32" halPin="physical-outputs"/>
+        </pdo>
+      </syncManager>
+      <!-- Outputs, TPDO of slave -->
+      <syncManager idx="3" dir="in">
+        <pdo idx="1B01"> 
+          <pdoEntry idx="603f" subIdx="00" bitLen="16" halType="u32" halPin="error-code"/>
+      	  <pdoEntry idx="6041" subIdx="00" bitLen="16" halType="complex">
+            <!-- Bit0: Pre-charge relay is ready for closure -->
+            <complexEntry bitLen="1" halType="bit" halPin="pre-charge-relay-ready" />
+            <!-- Bit1: Pre-charge relay closed -->
+            <complexEntry bitLen="1" halType="bit" halPin="pre-charge-relay-closed-read" />
+            <!-- Bit2: Operation enabled -->
+            <complexEntry bitLen="1" halType="bit" halPin="operation-enabled-read" />
+            <!-- Bit3: Fault -->
+            <complexEntry bitLen="1" halType="bit" halPin="fault" />
+            <!-- Bit4: Main power flag bit (1: main power on, 0: main power off) -->
+            <complexEntry bitLen="1" halType="bit" halPin="main-power-on-fb" />
+            <!-- Bit5: Quick stop -->
+            <complexEntry bitLen="1" halType="bit" halPin="quick-stop-fb" />
+            <!-- Bit6: Pre-charge relay closure disabled (1: alarm occurred, 0: no alarm) -->
+            <complexEntry bitLen="1" halType="bit" halPin="pre-charge-relay-disabled" />
+            <!-- Bit7: Warning bit -->
+            <complexEntry bitLen="1" halType="bit" halPin="warning" />
+            <!-- Bit8: Motor power flag bit (1: motor is working 0: motor is not working) -->
+            <complexEntry bitLen="1" halType="bit" halPin="motor-power-on" />
+            <!-- Bit9: Remote (1: control word processed 0: control word not processed) -->
+            <complexEntry bitLen="1" halType="bit" halPin="remote-processed" />
+            <!-- Bit10: Target completed flag bit (1: target completed 0: target not completed) -->
+            <complexEntry bitLen="1" halType="bit" halPin="target-completed" />
+            <!-- Bit11: Instruction internal limit flag bit (1: limits in instruction 0: no limit in instruction)-->
+            <complexEntry bitLen="1" halType="bit" halPin="instruction-internal-limit" />
+            <!-- Bit12~Bit13 are depending on the current mode (see Table 7.3-2) -->
+            <complexEntry bitLen="2" halType="bit" halPin="mode-flag" />
+            <!-- Bit14: Motor rotation flag bit (1: motor is rotating 0: motor is at rest) -->
+            <complexEntry bitLen="1" halType="bit" halPin="motor-rotating" />
+            <!-- Bit15: Reserved -->
+            <complexEntry bitLen="1" />
+          </pdoEntry>
+ 	        <pdoEntry idx="6064" subIdx="00" bitLen="32" halType="s32" halPin="position-actual-value"/>
+          <pdoEntry idx="6077" subIdx="00" bitLen="16" halType="s32" halPin="torque-actual-value"/>
+          <pdoEntry idx="60f4" subIdx="00" bitLen="32" halType="s32" halPin="following-error-actual-value"/>
+          <pdoEntry idx="60b9" subIdx="00" bitLen="16" halType="u32" halPin="touch-probe-status"/>
+          <pdoEntry idx="60ba" subIdx="00" bitLen="32" halType="s32" halPin="touch-probe-pos1-pos-value"/>
+          <pdoEntry idx="60bc" subIdx="00" bitLen="32" halType="s32" halPin="touch-probe-pos2-pos-value"/>
+          <pdoEntry idx="60fd" subIdx="00" bitLen="32" halType="u32" halPin="digital-inputs"/>
+        </pdo>
+      </syncManager>      
+    </slave>
+  </master>
+</masters>
