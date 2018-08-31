@@ -1,0 +1,12 @@
+<masters>
+  <master idx="0" appTimePeriod="500000" refClockSyncCycles="1">
+    <slave idx="0" type="EK1100">
+    </slave>
+    <slave idx="1" type="EL1008">
+          <dcConf assignActivate="300" sync0Cycle="*1"/>
+    </slave>
+    <slave idx="2" type="EL2008">
+          <dcConf assignActivate="300" sync0Cycle="*1"/>
+    </slave>
+  </master>
+</masters>

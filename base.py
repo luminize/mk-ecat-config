@@ -13,7 +13,7 @@ def set_joint_offset(joint_nr, offset):
 
 def instantiate_threads():
     print('instantiating thread(s)')
-    rt.newthread('st', 1000000, fp=True)
+    rt.newthread('st', 500000, fp=True)
 
 
 def setup_lcec(configfile=None):
@@ -179,8 +179,10 @@ def instantiate_components(arguments):
         # write lcec-read-all first
         hal.addf('lcec.read-all', st)
         # load other stuff
-        setup_joints(st)
-        connect_lcec(st, testsetup)
+        print(configfile)
+        if configfile != './ek1100el1008el2008.xml':
+            setup_joints(st)
+            connect_lcec(st, testsetup)
         # do some final writing of functions to the thread
         # write lcec-write-all last
         hal.addf('lcec.write-all', st)
@@ -191,4 +193,5 @@ def instantiate_components(arguments):
     # start threads for executing functions
     hal.start_threads()
     # create jplan joints and wire them to the plumbing
-    finish_jplan_plumbing()
+    if configfile != './ek1100el1008el2008.xml':
+        finish_jplan_plumbing()

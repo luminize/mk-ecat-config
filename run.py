@@ -17,7 +17,7 @@ os.chdir(os.path.dirname(os.path.realpath(__file__)))
 parser = argparse.ArgumentParser(description='EtherCAT test setup run script')
 parser.add_argument('-c', '--config', help='Give the name of the EtherCAT configuration to use', action='store')
 parser.add_argument('-d', '--demo', help='Demo setup, no EtherCAT', action='store_true')
-parser.add_argument('-t', '--testsetup', help='Test setup, Joint 6', action='store_true')
+parser.add_argument('-t', '--testsetup', help='Test setup', action='store_true')
 
 args = parser.parse_args()
 
